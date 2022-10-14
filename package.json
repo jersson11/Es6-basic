@@ -5,7 +5,7 @@
   "description": "es6 basic",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon Asyn/3_callback_request.js",
+    "dev": "nodemon promise/1-sync.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
