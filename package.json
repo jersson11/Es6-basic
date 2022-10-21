@@ -1,11 +1,11 @@
 {
   "name": "es6-basics",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "description": "es6 basic",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon promise/1-sync.js",
+    "dev": "nodemon actualizar.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "axios": "^1.1.3",
     "colors": "^1.4.0",
     "request": "^2.88.2",
     "xmlhttprequest": "^1.8.0"

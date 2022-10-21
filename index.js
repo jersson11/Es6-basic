@@ -1,6 +1,6 @@
-import {materias} from "./materias.js";
+import {materias} from "./materias";
 import pkg from 'colors'
-import { actualizar } from "./actualizar.js";
+
 
 // //console.log(materias);
 
@@ -45,9 +45,8 @@ import { actualizar } from "./actualizar.js";
 //  console.log(materias);
 
 
- 
-  //actualizar:findindex
-
-// console.log(actualizar)
+const actualizar = materias.findIndex(materia => materia.instructor === "Tatiana Cabrera");
+materias[actualizar].instructor="Cristian Buitrago"
+console.log(materias)
 
 
